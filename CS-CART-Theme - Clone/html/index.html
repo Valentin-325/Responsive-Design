@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vom vedea</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- PRE-NAVBAR -->
+    <div class="pre-nav">
+        <ul class="navbar">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Promo</a></li>
+        </ul>
+    </div>
+
+    <!--
+        NAVBAR
+    -->
+    <div class="nav">
+        <div class="logo">
+            <img src="/IMG/logo1.jpg" alt="logo">
+        </div>
+
+        <div class="search">
+            <div class="search-input">
+                <input type="text" placeholder="search...">
+            </div>
+            
+            <div class="search-option">
+                <select name="option" id="option">
+                <option value="toateProdusele">Toate Produsele</option>
+                <option value="cadouri">Cadouri</option>
+                <option value="personalizari">Personalizari</option>
+                <option value="ambalare">Ambalare</option>
+                <option value="promotii">Promotii</option>
+                </select>
+            </div>
+
+            <button class="search-button">
+                <i class="fas fa-search"></i>
+            </button>
+
+            <div class="icon">
+
+                <i class="fas fa-heart" id="inima"></i>
+                <i class="fas fa-user"></i>
+
+                    <div class="ic-text">
+
+                        <i class="far fa-shopping-cart">
+                            
+                            <div class="text-container">
+                                <h3>COS</h3>
+                                <p>0 Produs(e)</p>
+                            </div>
+
+                        </i>
+
+                    </div>
+            </div>
+        </div>
+    
+    </div>
+
+    <nav class="navi">
+        <ul class="navi-ul">
+            <li class="navi-item"><a href="#">INSECTICIDE</a></li>
+            <li class="navi-item"><a href="#">GAZON</a></li>
+            <li class="navi-item"><a href="#">FUNGICIDE</a></li>
+            <li class="navi-item"><a href="#">UNELTE</a></li>
+            <li class="navi-item"><a href="#">ERBICIDE</a></li>
+            <li class="navi-item"><a href="#">GEL GANDACI</a></li>
+            <li class="navi-item"><a href="#">POMPA DE STROPIT</a></li>
+        </ul>
+
+        <button class="hamburger-menu" id="hamburger">
+            <i class="far fa-bars"></i>
+        </button>
+    </nav>
+
+    <!--
+        HERO SECTION
+    -->
+
+    <div class="hero">
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="/IMG/mountain.jpg" width="100%" alt="munti">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="/IMG/nature.jpg" width="100%" alt="natura">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="/IMG/snow.jpg" width="100%" alt="zapada">
+            </div>
+
+        </div>
+
+        <div class="grid-item1">
+            <img src="/IMG/banner1.jpg" alt="livrare rapida" id="grid-img">
+        </div>
+        <div class="grid-item2">
+            <img src="/IMG/banner2.jpg" alt="contact" id="grid-img">
+        </div>  
+        <div class="grid-item3">
+            <img src="/IMG/banner3.jpg" alt="contact" id="grid-img">
+        </div> 
+        <div class="grid-item4">
+            <img src="/IMG/banner4.jpg" alt="contact" id="grid-img">
+        </div>       
+
+        <div style="display: none;">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+        </div>
+        
+    </div>
+
+    <section class="item-categories">
+        <div class="item">
+
+            <div class="title-categories">
+              <h3>Ingrasamant de toamna - iarna</h3>
+            </div>
+
+            <div class="border-item">
+                <div class="item-container">
+                    <img src="/IMG/item.jpg" alt="$">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4>200.52 LEI</h2>
+                    <button type="button" class="send">Adaugati in cos</button>
+                        <div class="item-feedback">
+                            <i class="fal fa-eye" id="rotate"></i>                   
+                            <i class="fas fa-heart-square" id="rotate"></i>
+                            <i class="fas fa-chart-bar" id="rotate"></i>
+                        </div>
+                </div>
+
+                <div class="item-container">
+                    <img src="/IMG/item.jpg" alt="$">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4>200.52 LEI</h2>
+                    <button type="button" class="send">Adaugati in cos</button>
+                        <div class="item-feedback">
+                            <i class="fal fa-eye" id="rotate"></i>                   
+                            <i class="fas fa-heart-square" id="rotate"></i>
+                            <i class="fas fa-chart-bar" id="rotate"></i>
+                        </div>
+                </div>
+
+                <div class="item-container">
+                    <img src="/IMG/item.jpg" alt="$">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4>200.52 LEI</h2>
+                    <button type="button" class="send">Adaugati in cos</button>
+                        <div class="item-feedback">
+                            <i class="fal fa-eye" id="rotate"></i>                   
+                            <i class="fas fa-heart-square" id="rotate"></i>
+                            <i class="fas fa-chart-bar" id="rotate"></i>
+                        </div>
+                </div>
+
+                <div class="item-container">
+                    <img src="/IMG/item.jpg" alt="$">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4>200.52 LEI</h2>
+                    <button type="button" class="send">Adaugati in cos</button>
+                        <div class="item-feedback">
+                            <i class="fal fa-eye" id="rotate"></i>                   
+                            <i class="fas fa-heart-square" id="rotate"></i>
+                            <i class="fas fa-chart-bar" id="rotate"></i>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+
+            <div class="title-categories">
+              <h3>Ingrasamant de toamna - iarna</h3>
+            </div>
+
+            <div class="border-item">
+                <div class="item-container">
+                    <img src="/IMG/item.jpg" alt="$">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4>200.52 LEI</h2>
+                    <button type="button" class="send">Adaugati in cos</button>
+                        <div class="item-feedback">
+                            <i class="fal fa-eye" id="rotate"></i>                   
+                            <i class="fas fa-heart-square" id="rotate"></i>
+                            <i class="fas fa-chart-bar" id="rotate"></i>
+                        </div>
+                </div>
+
+                <div class="item-container">
+                    <img src="/IMG/item.jpg" alt="$">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4>200.52 LEI</h2>
+                    <button type="button" class="send">Adaugati in cos</button>
+                        <div class="item-feedback">
+                            <i class="fal fa-eye" id="rotate"></i>                   
+                            <i class="fas fa-heart-square" id="rotate"></i>
+                            <i class="fas fa-chart-bar" id="rotate"></i>
+                        </div>
+                </div>
+
+                <div class="item-container">
+                    <img src="/IMG/item.jpg" alt="$">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4>200.52 LEI</h2>
+                    <button type="button" class="send">Adaugati in cos</button>
+                        <div class="item-feedback">
+                            <i class="fal fa-eye" id="rotate"></i>                   
+                            <i class="fas fa-heart-square" id="rotate"></i>
+                            <i class="fas fa-chart-bar" id="rotate"></i>
+                        </div>
+                </div>
+
+                <div class="item-container">
+                    <img src="/IMG/item.jpg" alt="$">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4>200.52 LEI</h2>
+                    <button type="button" class="send">Adaugati in cos</button>
+                        <div class="item-feedback">
+                            <i class="fal fa-eye" id="rotate"></i>                   
+                            <i class="fas fa-heart-square" id="rotate"></i>
+                            <i class="fas fa-chart-bar" id="rotate"></i>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+
+            <div class="title-categories">
+              <h3>Ingrasamant de toamna - iarna</h3>
+            </div>
+
+            <div class="border-item">
+                <div class="item-container">
+                    <img src="/IMG/item.jpg" alt="$">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4>200.52 LEI</h2>
+                    <button type="button" class="send">Adaugati in cos</button>
+                        <div class="item-feedback">
+                            <i class="fal fa-eye" id="rotate"></i>                   
+                            <i class="fas fa-heart-square" id="rotate"></i>
+                            <i class="fas fa-chart-bar" id="rotate"></i>
+                        </div>
+                </div>
+
+                <div class="item-container">
+                    <img src="/IMG/item.jpg" alt="$">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4>200.52 LEI</h2>
+                    <button type="button" class="send">Adaugati in cos</button>
+                        <div class="item-feedback">
+                            <i class="fal fa-eye" id="rotate"></i>                   
+                            <i class="fas fa-heart-square" id="rotate"></i>
+                            <i class="fas fa-chart-bar" id="rotate"></i>
+                        </div>
+                </div>
+
+                <div class="item-container">
+                    <img src="/IMG/item.jpg" alt="$">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4>200.52 LEI</h2>
+                    <button type="button" class="send">Adaugati in cos</button>
+                        <div class="item-feedback">
+                            <i class="fal fa-eye" id="rotate"></i>                   
+                            <i class="fas fa-heart-square" id="rotate"></i>
+                            <i class="fas fa-chart-bar" id="rotate"></i>
+                        </div>
+                </div>
+
+                <div class="item-container">
+                    <img src="/IMG/item.jpg" alt="$">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4>200.52 LEI</h2>
+                    <button type="button" class="send">Adaugati in cos</button>
+                        <div class="item-feedback">
+                            <i class="fal fa-eye" id="rotate"></i>                   
+                            <i class="fas fa-heart-square" id="rotate"></i>
+                            <i class="fas fa-chart-bar" id="rotate"></i>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+
+            <div class="title-categories">
+              <h3>Ingrasamant de toamna - iarna</h3>
+            </div>
+
+            <div class="border-item">
+                <div class="item-container">
+                    <img src="/IMG/item.jpg" alt="$">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4>200.52 LEI</h2>
+                    <button type="button" class="send">Adaugati in cos</button>
+                        <div class="item-feedback">
+                            <i class="fal fa-eye" id="rotate"></i>                   
+                            <i class="fas fa-heart-square" id="rotate"></i>
+                            <i class="fas fa-chart-bar" id="rotate"></i>
+                        </div>
+                </div>
+
+                <div class="item-container">
+                    <img src="/IMG/item.jpg" alt="$">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4>200.52 LEI</h2>
+                    <button type="button" class="send">Adaugati in cos</button>
+                        <div class="item-feedback">
+                            <i class="fal fa-eye" id="rotate"></i>                   
+                            <i class="fas fa-heart-square" id="rotate"></i>
+                            <i class="fas fa-chart-bar" id="rotate"></i>
+                        </div>
+                </div>
+
+                <div class="item-container">
+                    <img src="/IMG/item.jpg" alt="$">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4>200.52 LEI</h2>
+                    <button type="button" class="send">Adaugati in cos</button>
+                        <div class="item-feedback">
+                            <i class="fal fa-eye" id="rotate"></i>                   
+                            <i class="fas fa-heart-square" id="rotate"></i>
+                            <i class="fas fa-chart-bar" id="rotate"></i>
+                        </div>
+                </div>
+
+                <div class="item-container">
+                    <img src="/IMG/item.jpg" alt="$">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h4>200.52 LEI</h2>
+                    <button type="button" class="send">Adaugati in cos</button>
+                        <div class="item-feedback">
+                            <i class="fal fa-eye" id="rotate"></i>                   
+                            <i class="fas fa-heart-square" id="rotate"></i>
+                            <i class="fas fa-chart-bar" id="rotate"></i>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner">
+        <div class="banner-img">
+            <img src="/IMG/banner-bg-img.jpg" alt="banner" width="100%"> 
+        </div>
+    </section>
+
+    <!-- SLIDER CAROUSEL -->
+
+    <div class="slider ">
+        <div class="title-carousel">
+            <h3>Blog Article</h3>
+        </div>
+        
+        <div class="slider-slider owl-carousel">
+            <div class="slider-container ">
+                <div class="slider-body">
+                    <img src="/IMG/cotar.jpg" alt="cotarul cenusiu">
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                        <div class="data-management">
+                            <h5>05.11.2021</h5>
+                            <i class="fal fa-user"></i>
+                            <p>Valentin Teodor</p>
+                        </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellendus tempora voluptates, aspernatur perspiciatis qui.</p>    
+                </div>
+            </div>
+        
+            <div class="slider-container ">
+                <div class="slider-body">
+                    <img src="/IMG/gargarita.jpg" alt="cotarul cenusiu">
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                        <div class="data-management">
+                            <h5>05.11.2021</h5>
+                            <i class="fal fa-user"></i>
+                            <p>Valentin Teodor</p>
+                        </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellendus tempora voluptates, aspernatur perspiciatis qui.</p>    
+                </div>
+            </div>
+
+            <div class="slider-container ">
+                <div class="slider-body">
+                    <img src="/IMG/lacuste.jpg" alt="cotarul cenusiu">
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                        <div class="data-management">
+                            <h5>05.11.2021</h5>
+                            <i class="fal fa-user"></i>
+                            <p>Valentin Teodor</p>
+                        </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellendus tempora voluptates, aspernatur perspiciatis qui.</p>    
+                </div>
+            </div>
+
+            <div class="slider-container ">
+                <div class="slider-body">
+                    <img src="/IMG/trips.jpg" alt="cotarul cenusiu">
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                        <div class="data-management">
+                            <h5>05.11.2021</h5>
+                            <i class="fal fa-user"></i>
+                            <p>Valentin Teodor</p>
+                        </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellendus tempora voluptates, aspernatur perspiciatis qui.</p>    
+                </div>
+            </div>
+            
+        </div>
+
+    </div> 
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="information">
+            <div class="information-c">
+                <div class="information-title">
+                    <h5>CONTUL MEU</h5>
+                </div>
+                <div class="information-link">
+                    <a href="#">Autentificare</a>
+                    <a href="#">Creati cont</a>
+                    <a href="#">Lista de preferinte</a>
+                    <a href="#">Lista de comparatii</a>
+                </div>
+            </div>
+            <div class="information-c">
+                <div class="information-title">
+                    <h5>SUPORT CLIENT</h5>
+                </div>
+                <div class="information-link">
+                    <a href="#">Comanda ta</a>
+                    <a href="#">Despre livrare</a>
+                    <a href="#">Politica de retur</a>
+                    <a href="#">Lista de comparatii</a>
+                </div>
+            </div>
+            <div class="information-c">
+                <div class="information-title">
+                    <h5>INFO WEBSITE</h5>
+                </div>
+                <div class="information-link">
+                    <a href="#">Despre noi</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Certificate cadou</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+            <div class="information-c">
+                <div class="information-title">
+                    <h5>CONTACT</h5>
+                </div>
+                <div class="information-link">
+                    <p>Telefon: 0789527844</p>
+                    <p>WhatsApp: 0789527844</p>
+                    <p>Consultanta telefonica: 0789527844</p>
+                    <p>Email: comenzi@office.ro</p>
+                </div>
+            </div>
+            <div class="information-c">
+                <div class="information-title">
+                    <h5>Reducere 3% la prima comanda</h5>
+                </div>
+                <div class="input-group">
+                    <label for="Nume si prenume">Nume si prenume</label><br>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="input-group">
+                    <label for="Username">Username</label><br>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group">
+                    <button type="submit" class="submit-btn">Ma abonez</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="furnizori"></div>
+    </footer>
+
+    <script>
+        $(".slider-slider").owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2500,
+            autoplayHoverPause: true,
+            responsive: {
+                0:{
+                    items: 1,
+                },
+                600:{
+                    items: 2,
+                },
+                1000:{
+                    items: 3,
+                }
+            }
+        }); 
+    </script> 
+    <script src="/js/index.js"></script>
+</body>
+</html>
